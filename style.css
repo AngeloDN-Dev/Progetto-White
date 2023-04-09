@@ -1,0 +1,390 @@
+:root{
+    --mainblue: rgb(6, 57, 108);
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6, p, ol, ul{margin: 0; padding: 0;}
+ul,ol{list-style-type: none;}
+a{text-decoration: none; color: #28292b; font-weight: 300;}
+
+h1,h2,h3,h4{
+    font-family: 'Electrolize', sans-serif;
+}
+
+
+/* helper system */
+
+.font-ele{font-family: 'Electrolize', sans-serif;}
+
+.bg-blue{background-color: var(--mainblue);}
+.bg-darkred{background-color: darkred;}
+.bg-grey{background-color: rgb(236, 236, 236);}
+.bg{border: 1px solid red;}
+
+.title-red{color: rgb(139, 0, 0);}
+.title-blue{color: var(--mainblue);}
+
+
+.mb-6{margin-bottom: 6rem;}
+.mb-7{margin-bottom: 2rem;}
+.mx-6{margin-right: 6rem; margin-left: 6rem;}
+.mt-5-4{margin-top: 5.4rem;}
+.mt-6{margin-top: 6rem;}
+.mt-8{margin-top: 8rem;}
+.mt-10{margin-top: 10rem;}
+.mt-26{margin-top: 26rem;}
+.mt-13{margin-top: 13rem;}
+.mt-50{margin-top: 50rem;}
+.ml-4{margin-left: 4rem;}
+.ml-3{margin-left: 3rem;}
+.ml-2{margin-left: 2rem;}
+.ml-1{margin-left: 1.7rem;}
+.ml-15{margin-left: 16rem;}
+.mr-2{margin-right: 2rem;}
+.mr-3{margin-right: 3rem;}
+.fs-0{font-size: 1.4rem;}
+.fs-9{font-size: 6rem;}
+.fs-8{font-size: 5rem;}
+.fs-7{font-size: 4rem;}
+.mx-10{margin-left: 65rem; margin-right: 3rem;}
+.mx-9{margin-left: 25rem; margin-right: 25rem;}
+.ls-2{letter-spacing: 0.2rem;}
+
+/* add */
+
+.sfondo{
+    background: linear-gradient( rgba(6, 57, 108, 0.7),rgba(6, 57, 108, 0.7)), url(./img/header.jpg);
+    height: 110vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.logo{
+    height: 30px;
+}
+
+.border-custom{
+    border-left: 1px solid #fff;
+    height: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.title{
+    font-weight: 500;
+}
+
+.title1{
+    font-weight: 900;
+}
+
+.virgolette1::before{
+    content: '“';
+    font-size: 70px;
+    color: var(--mainblue);
+    position: absolute;
+    left: 4rem;
+    top: 77.3rem;
+}
+
+.virgolette2::before{
+    content: '“';
+    font-size: 70px;
+    color: var(--mainblue);
+    position: absolute;
+    left: 43.3rem;
+    top: 77.3rem;
+}
+
+.virgolette3::before{
+    content: '“';
+    font-size: 70px;
+    color: var(--mainblue);
+    position: absolute;
+    left: 82.4rem;
+    top: 77.3rem;
+}
+
+
+.sfondo1{
+    background: linear-gradient( rgba(6, 57, 108, 0.4),rgba(6, 57, 108, 0.5)), url(./img/power-plant-4712830_1280.jpg);
+    background-repeat: no-repeat;
+    height: 70vh;
+    background-size: cover;
+}
+
+.img-custom{
+    height: 450px;
+    width: 600px;
+}
+
+.icons{
+    height: 60px;
+    width: 60px;
+}
+
+.b-white{
+    border: 4px solid #fff;
+    top: 134rem;
+    position: absolute;
+    z-index: 90;
+}
+
+.z-index{
+    z-index: 100;
+}
+
+.col-custom{
+    left: 65rem;
+    position: absolute;
+}
+
+.h-custom{
+    height: 67vh;
+}
+
+.btn-blue{
+    background-color: var(--mainblue);
+    text-transform: uppercase;
+    border-radius: 0;
+    width: 140px;
+    height: 30px;
+}
+
+.btn-blue:hover{
+    background-color: rgb(10, 35, 61);
+    text-transform: uppercase;
+    border-radius: 0;
+    width: 140px;
+    height: 30px;
+}
+
+.img-custom1{
+    height: 380px;
+}
+
+.btn-city{
+    width: 150px;
+}
+
+.box-x{
+    bottom: -196rem;
+    right: 78rem;
+    position: absolute;
+    height: 150px;
+    width: 240px;
+    background-image: linear-gradient(to right, rgba(101, 137, 170, 0.774) 1% , rgba(255, 255, 255, 0) 99%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.box{
+    background-image: url(./img/laptop.png);
+    background-size: cover;
+    height: 150px;
+    width: 390px;
+}
+
+.box1{
+    background-image: url(./img/cloud.png);
+    background-size: cover;
+    height: 150px;
+    width: 390px;
+}
+
+.box-1{
+    bottom: -196rem;
+    right: 37.5rem;
+    position: absolute;
+    height: 150px;
+    width: 240px;
+    background-image: linear-gradient(to right, rgba(101, 137, 170, 0.774) 1% , rgba(255, 255, 255, 0) 99%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.box2{
+    background-image: url(./img/sky.png);
+    background-size: cover;
+    height: 150px;
+    width: 390px;
+}
+
+.box-2{
+    bottom: -208.5rem;
+    right: 78rem;
+    position: absolute;
+    height: 150px;
+    width: 240px;
+    background-image: linear-gradient(to right, rgba(101, 137, 170, 0.774) 1% , rgba(255, 255, 255, 0) 99%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.box3{
+    background-image: url(./img/mountain.png);
+    background-size: cover;
+    height: 150px;
+    width: 390px;
+}
+
+.box-3{
+    bottom: -208.5rem;
+    right: 37.5rem;
+    position: absolute;
+    height: 150px;
+    width: 240px;
+    background-image: linear-gradient(to right, rgba(101, 137, 170, 0.774) 1% , rgba(255, 255, 255, 0) 99%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.icons1{
+    height: 28px;
+    margin-left: 0.7rem;
+}
+
+.p-size{
+    font-size: 12px;
+}
+
+.h-custom1{
+    height: 25vh;
+}
+
+.sfondo2{
+    background-image: linear-gradient( rgba(6, 57, 108, 0.4),rgba(6, 57, 108, 0.911)), url(./img/sun.png);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 5px 10px #adaaaaab;
+    height: 150px;
+    width: 300px;
+}
+
+.img-card{
+    height: 55px;
+}
+
+.sfondo3{
+    background-image: linear-gradient( rgba(6, 57, 108, 0.4),rgba(6, 57, 108, 0.829)), url(./img/wind.png);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 5px 10px #adaaaaab;
+    height: 150px;
+    width: 300px;
+}
+
+.sfondo4{
+    background-image: linear-gradient( rgba(6, 57, 108, 0.4),rgba(6, 57, 108, 0.5)), url(./img/wave.png);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 5px 10px #adaaaaab;
+    height: 150px;
+    width: 300px;
+}
+
+.sfondo5{
+    background-image: linear-gradient( rgba(6, 57, 108, 0.4),rgba(6, 57, 108, 0.849)), url(./img/gas.png);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 5px 10px #adaaaaab;
+    height: 150px;
+    width: 300px;
+}
+
+.sfondo6{
+    background-image: linear-gradient( rgba(6, 57, 108, 0.4),rgba(6, 57, 108, 0.986)), url(./img/oil.png);
+    background-size: cover;
+    background-position: bottom;
+    box-shadow: 0 5px 10px #adaaaaab;
+    height: 150px;
+    width: 300px;
+}
+
+.sfondo7{
+    background-image: linear-gradient( rgba(6, 57, 108, 0.4),rgba(6, 57, 108, 0.781)), url(./img/nuclear.png);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 5px 10px #adaaaaab;
+    height: 150px;
+    width: 300px;
+}
+
+.z-index1{
+    z-index: 200;
+    bottom: -251rem;
+    position: absolute;
+}
+
+.card{
+    border-radius: 0;
+    box-shadow: 0 0 10px #adaaaaab;
+}
+
+.bi-arrow-down-square{
+    font-size: 45px;
+    color: rgba(67, 69, 71, 0.801);
+}
+
+.border-blue{
+    border: 5px solid var(--mainblue);
+    margin-top: 4px;
+    width: 25%;
+}
+
+.border-blue1{
+    border: 5px solid var(--mainblue);
+    margin-top: 4px;
+    width: 40%;
+}
+
+.border-blue2{
+    border: 5px solid var(--mainblue);
+    margin-top: 4px;
+    width: 57%;
+}
+
+.border-blue3{
+    border: 5px solid var(--mainblue);
+    margin-top: 4px;
+    width: 70%;
+}
+
+.border-blue4{
+    border: 5px solid var(--mainblue);
+    margin-top: 4px;
+    width: 53%;
+}
+
+.arrow{
+    height: 23px;
+    width: 23px;
+    filter: invert();
+}
+
+.box-footer{
+    position: absolute;
+    height: 375px;
+    width: 430px;
+    top: 367rem;
+}
+
+.fs-footer{
+    font-size: 1rem;
+}
+
+.fw-custom{
+    color: rgba(151, 164, 177, 0.479);
+}
+
+.fw-custom1{
+    color: rgba(67, 69, 71, 0.801);
+    font-weight: 600;
+}
